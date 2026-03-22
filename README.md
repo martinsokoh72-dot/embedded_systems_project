@@ -1,4 +1,6 @@
 # Embedded_systems_project
+Author: Martins Osemudiamen Okoh.
+TU dublin Student ID: A00047170
 
 PC Fan Controller Using STM32L432KC
 
