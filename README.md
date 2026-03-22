@@ -30,18 +30,18 @@ Features:
 Hardware Requirements:
 Component	           Specification
 Microcontroller	       STM32L432KC (32-bit ARM Cortex-M4)
-Fan	                   FA07015L12LPB (12V DC, 3-pin with tachometer)
+Fan	               FA07015L12LPB (12V DC, 3-pins with tachometer i.e 4-pins)
 Potentiometer          10kΩ (linear)
-PWM Driver	           N-channel MOSFET or transistor for 12V fan
+PWM Driver	       N-channel MOSFET or transistor for 12V fan
 Power Supply	       12V for fan, 3.3V from MCU
 Miscellaneous	       Jumper wires, breadboard
 
 Software Requirements:
-IDE:                    STM32CubeIDE
+IDE:                    Visual Studio Code 1.112 and platformio
 STM32CubeMX:            Optional for pin and peripheral configuration
 Programming Language:   C (Visual Code software)
 Serial Terminal:        Visual code Serial Terminal
-Libraries:              STM32 HAL
+Libraries:              STM32 <stm32l432xx.h>
 
 Note:
 
