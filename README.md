@@ -1,4 +1,4 @@
-# embedded_systems_project
+# Embedded_systems_project
 
 PC Fan Controller Using STM32L432KC
 
