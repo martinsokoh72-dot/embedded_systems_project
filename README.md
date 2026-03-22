@@ -79,13 +79,13 @@ How It Works:
 
 2) RPM Measurement:
 - Fan tachometer output generates pulses per revolution (2 pulses/rev for FA07015L12LPB).
-- GPIO interrupt increments a pulse counter on each edge.
+- GPIO interrupt ensures a variable (pulse_count) increament on each edge of the speed signal.
 - SysTick timer triggers periodically to calculate RPM:
 
     RPM = (pulse_count / pulses_per_rev) * 60
 
 3) Serial Communication:
-- PWM duty cycle and RPM are transmitted via UART.
+- Potentiometer duty level and RPM are transmitted via UART.
 - Output speed is visible on any serial terminal program.
 
 Installation & Setup:
