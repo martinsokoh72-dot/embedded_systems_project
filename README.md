@@ -45,7 +45,7 @@ Libraries:              STM32 HAL
 
 Note:
 
-- The fan is powered via a MOSFET.
+- The fan is powered via external power supply ( 12 volt, 0.1 ampere).
 - Tachometer output is connected to a GPIO configured for external interrupts.
 - PWM duty cycle controls fan speed;
 - Tachometer pulses used to measure RPM.
