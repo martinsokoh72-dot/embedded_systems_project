@@ -4,7 +4,7 @@ PC Fan Controller Using STM32L432KC
 
 Overview
 
-This project implements a PC fan controller using the STM32L432KC microcontroller. Technical project report is located in directory: embedded_project/Technical report
+This project implements a PC fan controller using the STM32L432KC microcontroller. A technical project report is located in directory: embedded_project/Technical report
 
 In addition, a video of this project testing / debugging can be viewed via the Youtube link : https://youtu.be/_kl5gjgZ4ug
 
