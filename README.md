@@ -92,12 +92,14 @@ Installation & Setup:
 
 - Connect STM32L432KC to PC via USB.
 - Connect potentiometer to ADC pin (PA0), 3v3 pin and ground.
-- Connect fan via 4 pins connector- connect tachometer output to GPIO with interrupt (PB4), connect pwm fan input to PA3 and 12v supply to fan power pin.
+- Connect fan via 4 pins connector- connect tachometer output to GPIO with interrupt (PB4).
+- Connect pwm fan input to PA3 and 12v supply to fan power pin.
 - Connect push button for grouding the tachnometer to (PB4).
 - Configure ADC, PWM, UART, and EXTI in STM32CubeIDE.
 - Compile and upload firmware.
 - Open a serial terminal at the configured baud rate (e.g., 115200).
--Rotate potentiometer to adjust fan speed; monitor PWM duty cycle and RPM in real-time.
+- Rotate potentiometer to adjust fan speed;
+- monitor potentiometer set level and fan speed RPM in real-time.
 
 Troubleshooting / Debugging:
 
