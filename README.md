@@ -82,7 +82,7 @@ How It Works:
 - GPIO interrupt increments a pulse counter on each edge.
 - SysTick timer triggers periodically to calculate RPM:
 
-    RPM = (pulse_count / pulses_per_rev) * 60 / tick_period_seconds
+    RPM = (pulse_count / pulses_per_rev) * 60
 
 3) Serial Communication:
 - PWM duty cycle and RPM are transmitted via UART.
