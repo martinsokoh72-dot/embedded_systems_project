@@ -99,7 +99,7 @@ Installation & Setup:
 - Compile and upload firmware.
 - Open a serial terminal at the configured baud rate (e.g., 115200).
 - Rotate potentiometer to adjust fan speed;
-- monitor potentiometer set level and fan speed RPM in real-time.
+- Monitor potentiometer set level and fan speed RPM in real-time.
 
 Troubleshooting / Debugging:
 
