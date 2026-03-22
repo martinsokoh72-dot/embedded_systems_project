@@ -6,7 +6,7 @@ PC Fan Controller Using STM32L432KC
 
 Overview
 
-This project implements a PC fan controller using the STM32L432KC microcontroller. The design is implemented using KICad 10.0 and is located in directory: embedded_project/embedded_project_design. The source code is located in directory: embedded_project/source code.  A technical project report which entails hardware and software explainations is located in directory: embedded_project/Technical report.
+This project implements a PC fan controller using the STM32L432KC microcontroller. The design is implemented using KICad 10.0 and is located in directory: embedded_project_design. The source code is located in directory: source code.  A technical project report which entails hardware and software explainations is located in directory: Technical report.pdf.
 
 In addition, a video of this project testing / debugging can be viewed via the Youtube link : https://youtu.be/_kl5gjgZ4ug
 
