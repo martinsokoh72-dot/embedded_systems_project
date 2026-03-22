@@ -53,21 +53,21 @@ Note:
 Firmware Architecture:
 
 embedded_project/source code/src/main.c
-        main()      # Main loop: functions to read potentiometer, update PWM, interrupt pulse, transmit serial data
-        setup()
-        initADC()
-        readADC()
-        delay()
-        enablePullUp()
-        pinMode()
-        initTimer2()
-        setTimer2Duty()
-        initClocks()
-        initSerial()
-        eputc()
-        EXTI4_IRQHandler()
-        SysTick_Handler()
-        delay_ms()
+        -main()      # Main loop: functions to read potentiometer, update PWM, interrupt pulse, transmit serial data
+        -setup()
+        -initADC()
+        -readADC()
+        -delay()
+        -enablePullUp()
+        -pinMode()
+        -initTimer2()
+        -setTimer2Duty()
+        -initClocks()
+        -initSerial()
+        -eputc()
+        -EXTI4_IRQHandler()
+        -SysTick_Handler()
+        -delay_ms()
         
 
 How It Works:
